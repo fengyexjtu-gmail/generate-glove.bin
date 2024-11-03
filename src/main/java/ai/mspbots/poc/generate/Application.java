@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class Application {
     public static void main(String[] args) {
-        Word2Vec wordVectors = WordVectorSerializer.readWord2VecModel(new File("/opt/glove.6B.300d.txt"));
-        WordVectorSerializer.writeWord2VecModel(wordVectors, new File("/opt/glove.bin"));
+        Word2Vec wordVectors = WordVectorSerializer.readWord2VecModel(new File("C:\\Users\\jeffery\\Downloads\\glove.twitter.27B\\glove.twitter.27B.200d.txt"));
+        WordVectorSerializer.writeWord2VecModel(wordVectors, new File("D:\\download\\glove.6B\\glove.twitter.bin"));
     }
 }
